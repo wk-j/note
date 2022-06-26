@@ -18,7 +18,7 @@ namespace Mg {
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services) {
-            const string cc = ***REMOVED***;
+            const string cc = "";
 
             services.AddDbContext<KpiEntity.KpiContext>(options => {
                 options.UseNpgsql(cc, v => {
