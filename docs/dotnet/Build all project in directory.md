@@ -1,3 +1,5 @@
+#bash #dotnet
+
 ## Find and build
 
 ```bash

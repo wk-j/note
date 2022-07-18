@@ -1,11 +1,11 @@
-Instead of doing this
+## Instead of doing this
 
 ```csharp
 object value = 100;
 int i = (int) value
 ```
 
-Use StrongBox
+## Use StrongBox
 
 ```csharp
 var box = new StringBox(100);
